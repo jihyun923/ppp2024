@@ -1,12 +1,15 @@
 # weight = 60
-# height = 1.7
-# BMI = weight / (height * height)
+# height_cm = 170
 
-bmi = int(input("몸무게와 키를 입력하세요."))
+# height_cm = input("키를 입력하세요.")
+# height_cm = int(height_cm)
+# weight = input("몸무게를 입력하세요.")
+# weight = int(weight)
 
-import math
+height_cm = int(input("키를 입력하세요."))
+weight = int(input("몸무게를 입력하세요."))
 
-r = int(input("원의 반지름을 입력하세요."))
-area = math. pi * r ** 2
+bmi = weight / (height_cm ** 2)
+print("키가 {}cm, 몸무게가 {}kg이면, BMI는 {}입니다.".format(height_cm,weight,bmi))
 
-print("반지름이 {}인")
+
