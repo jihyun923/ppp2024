@@ -1,11 +1,12 @@
-# 과제03의 BMI 계산결과에 따라 아래 텍스트를 참고하여, 비만 정도를 표시하시오.
-# “2020년 비만 진료지침에서는 체질량지수(BMI) △23~24.9kg/㎡를 비만 전단계
-#△25~29.9kg/㎡를 1단계 비만 △30~34.9kg/㎡를 2단계 비만 △35kg/㎡ 이상을 3단
-#계 비만으로 정의했다.
 height = int(input('키를 입력하세요.'))
 weight = int(input("몸무게를 입력하세요."))
 bmi = weight / (height/100)**2
 
-if 23 <= bmi <= 24.9
-    print("비만 전단계입니다.")
-elif 
+if 23 <= bmi <= 24.9 :
+    print("bmi는 {}kg/㎡입니다. 비만 전단계입니다.".format(bmi))
+elif bmi <= 29.9 :
+    print("bmi는 {}kg/㎡입니다. 1단계 비만입니다.".format(bmi))
+elif bmi <= 34.9 :
+    print("bmi는 {}kg/㎡입니다. 2단계 비만입니다.".format(bmi))
+elif 35 <= bmi :
+    print("bmi는 {}kg/㎡입니다. 3단계 비만입니다. 관리가 필요합니다.".format(bmi))
