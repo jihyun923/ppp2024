@@ -10,3 +10,4 @@ elif bmi <= 34.9 :
     print("키 {}cm, 몸무게 {}kg에 따른 bmi는 {}kg/㎡입니다. 2단계 비만입니다.".format(height,weight,bmi))
 elif 35 <= bmi :
     print("키 {}cm, 몸무게 {}kg에 따른 bmi는 {}kg/㎡입니다. 3단계 비만입니다. 관리가 필요합니다.".format(height,weight,bmi))
+    quit()
