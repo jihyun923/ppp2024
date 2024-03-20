@@ -16,9 +16,10 @@ total2 = total2 + 10
 
 total = 0
 for i in range(10):
+    #total = total + (i+1)
     total = total + (i+1)
 
 
-print(f'1부터 10까지 합은 (total1)입니다.')
-print(f'1부터 10까지 합은 (total2)입니다.')
-print(f'1부터 10까지 합은 (total)입니다.')
+print(f'1부터 10까지 합은 {total1}입니다.')
+print(f'1부터 10까지 합은 {total2}입니다.')
+print(f'1부터 10까지 합은 {total}입니다.')
