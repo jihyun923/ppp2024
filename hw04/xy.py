@@ -12,7 +12,7 @@ elif x > 0 and y < 0 :
 elif x == 0 and y == 0 :
     print("(0,0), 입력한 좌표는 원점입니다.")
 elif x == 0 :
-    print("입력한 좌표는 y선 위에 있습니다.")
+    print("입력한 좌표는 y축 위에 있습니다.")
 elif y == 0 :
-    print("입력한 좌표는 x선 위에 있습니다.")
+    print("입력한 좌표는 x축 위에 있습니다.")
     quit()
