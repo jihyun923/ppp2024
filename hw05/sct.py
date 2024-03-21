@@ -6,7 +6,7 @@ for i in range(0, 361, 15):
     s = round(math.sin(r), 4)
     c = round(math.cos(r), 4)
     if i % 90 == 0:
-        t = "        Undefined"
+        t = "Undefined"
     else:
         t = round(math.tan(r), 4)
     print(f"{i}\t\t{s}\t\t{c}\t\t{t}")
