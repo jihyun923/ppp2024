@@ -8,5 +8,5 @@ for i in range(0, 361, 15):
     if i % 90 == 0:
         t = "Undefined"
     else:
-        t = round(math.tan(r), 4)
-    print(f"{i}\t\t{:.f4}\t\t{:.f4}\t\t{t}".format(s,c))
+        t =round(math.tan(r),4)
+    print(f"{i}\t\t{s:.4f}\t\t{c:.4f}\t\t{t}")
