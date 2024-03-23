@@ -9,4 +9,5 @@ for i in range(0, 361, 15):
         t = "Undefined"
     else:
         t =round(math.tan(r),4)
+#포맷 함수로 소수점 조절하려 했는데 오류가 떠서 탄젠트만 round 함수를 썼습니다.
     print(f"{i}\t\t{s:.4f}\t\t{c:.4f}\t\t{t}")
