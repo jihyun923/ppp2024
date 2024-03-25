@@ -1,5 +1,6 @@
-
+##!주차 코드
 temp_f = 100
+temp_c = (temp_f - 32) * 5 / 0
 print("{}F => {}C".format(temp_f, temp_c))
 
 ##4주차 코드
