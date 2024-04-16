@@ -1,17 +1,3 @@
-def read_col(filename, col_name):
-    dataset = []
-    with open(filename) as f:
-        lines = f.readlines()
-        header = [x.strip() for x in lines[0].split(",")]
-        print(header)
-        col_idx = header.index(col_name)
-        print(col_name, col_idx)
-        for line in lines[1:]:
-            tokens = line.split(",")
-            dataset.append(float(tokens[col_idx]))
-    return dataset
-
-
 def sumifs(filename):
     total = 0
     with open(filename) as f:
