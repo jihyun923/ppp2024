@@ -23,4 +23,3 @@ def main():
     print(f"2020년 연 평균 기온은 {avg_temperature:.1f}도입니다.")
 
 if __name__ == '__main__':
-    main()
