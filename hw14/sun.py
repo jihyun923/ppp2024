@@ -58,7 +58,7 @@ def gap_max_date(filename):
                 max_tdiff_date = tdiff_date
     return max_tdiff, max_tdiff_date
 
-
+#왜 오류가 뜨는지 모르겠습니다...
 def main():
     URL = 'https://data.kma.go.kr/stcs/grnd/downloadGrndTaList.do?fileType=csv&pgmNo=70&menuNo=432&serviceSe=F00101&stdrMg=99999&startDt=19040101&endDt=20240422&taElement=MIN&taElement=AVG&taElement=MAX&stnGroupSns=&selectType=1&mddlClssCd=SFC01&dataFormCd=F00501&dataTypeCd=standard&startDay=19040101&startYear=190%BC&stnId=146&areaId=&gFontSize='
     filename = "ta_20240429021144.csv"
